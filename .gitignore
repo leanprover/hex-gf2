@@ -1,0 +1,9 @@
+.lake/
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+
+# On-demand NTL bench-comparator build cache
+# (scripts/oracle/setup_gf2_ntl_driver.sh)
+.cache/
