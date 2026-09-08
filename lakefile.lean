@@ -6,7 +6,7 @@ package «hex-gf2» where
   leanOptions := #[⟨`doc.verso, true⟩, ⟨`doc.verso.suggestions, false⟩]
 
 require HexBasic from git
-  "https://github.com/leanprover/hex-basic.git" @ "v0.3.0"
+  "https://github.com/leanprover/hex-basic.git" @ "v0.4.0"
 
 private def clmulOTarget (pkg : Package) : FetchM (Job FilePath) := do
   let oFile := pkg.dir / defaultBuildDir / "HexGF2" / "ffi" / "clmul.o"
